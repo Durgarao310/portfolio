@@ -1,0 +1,49 @@
+/*General styling for structure*/
+body {
+	background-color: #131316;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	text-align: center;
+}
+h1 {
+	letter-spacing: 10px;
+	font-weight: 100;
+	line-height: 50px;
+	font-weight: 100;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.main-text {
+	font-size: 24px;
+}
+
+.primary {
+	margin: 70px 0;
+}
+.list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list-item {
+	margin: 5px;
+	padding: 10px;
+	border: solid #463939 2px;
+}
+
+.link {
+	color: #6767e6;
+}
+
+.secondary {
+	margin: 60px 0;
+}
