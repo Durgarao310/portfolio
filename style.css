@@ -7,8 +7,7 @@
 	box-sizing: border-box;
 }
 body {
-	max-width: 700px;
-	margin: 0 auto;
+	padding: 10px;
 }
 
 header {
@@ -23,7 +22,8 @@ h1 {
 	margin: 40px 0;
 }
 .container {
-	margin: 20px;
+	max-width: 700px;
+	margin: 0 auto;
 }
 .main-text {
 	font-size: 24px;
