@@ -1,12 +1,14 @@
 /*General styling for structure*/
-body {
+* {
 	background-color: #131316;
 	color: #ffffff;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	max-width: 700px;
-	margin: 0 auto;
+}
+body {
+	padding: 20px;
 }
 
 header {
