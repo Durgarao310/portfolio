@@ -9,7 +9,6 @@
 body {
 	max-width: 700px;
 	margin: 0 auto;
-	margin: 20px;
 }
 
 header {
@@ -23,7 +22,9 @@ h1 {
 	text-align: center;
 	margin: 40px 0;
 }
-
+.container {
+	margin: 20px;
+}
 .main-text {
 	font-size: 24px;
 }
