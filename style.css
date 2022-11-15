@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 body {
-	padding: 10px;
+	padding: 0px;
 }
 
 header {
@@ -29,6 +29,10 @@ h1 {
 .main-text {
 	font-size: 24px;
 	margin-top: 10px;
+}
+.main-text {
+	font-size: 24px;
+	margin-bottom: 10px;
 }
 
 .primary {
