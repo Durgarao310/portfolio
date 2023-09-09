@@ -30,10 +30,14 @@ export default function Home() {
                 <h1 className="lg:text-3xl md:text-2xl text-xl font-semibold">
                   Durgarao Ganta
                 </h1>
-                <div><h4 className="text-md text-gray-400">Full Stack Developer</h4>
-                <h3 className="lg:text-2x text-lg">
-                  Mokshar creative studio's
-                </h3></div>
+                <div>
+                  <h4 className="text-md text-gray-400">
+                    Full Stack Developer
+                  </h4>
+                  <h3 className="lg:text-2x text-lg">
+                    {`Mokshar creative studio's`}
+                  </h3>
+                </div>
               </div>
             </div>
             <div className="flex justify-end absolute top-4 right-4">
