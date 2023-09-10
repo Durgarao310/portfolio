@@ -27,7 +27,7 @@ export default function Home() {
                 className="rounded-full border-2 border-white"
               />
               <div className="flex flex-col gap-4 justify-center">
-                <h1 className="lg:text-3xl md:text-2xl text-xl font-semibold">
+                <h1 className="lg:text-4xl md:text-3xl text-2xl font-semibold">
                   Durgarao Ganta
                 </h1>
                 <div>
