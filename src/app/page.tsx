@@ -26,7 +26,7 @@ export default function Home() {
                 alt="durgarao g"
                 className="rounded-full border-2 border-white"
               />
-              <div className="flex flex-col gap-4 justify-center">
+              <div className="flex flex-col gap-4 justify-center text-white">
                 <h1 className="lg:text-4xl md:text-3xl text-2xl font-semibold">
                   Durgarao Ganta
                 </h1>
