@@ -31,6 +31,7 @@ export default function Home() {
                   Durgarao Ganta
                 </h1>
                 <div>
+                  <p>hi@durga.dev</p>
                   <h4 className="text-md text-gray-400">
                     Full Stack Developer
                   </h4>
