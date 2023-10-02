@@ -105,5 +105,6 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Django",
-  "Firebase"
+  "Firebase",
+  "Socket.io",
 ] as const;
