@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "CSS Flexbox visualizer",
     description:
-      "A tool for visually designing CSS flexbox layouts in real-time.",
+      "A CSS flexbox visualizer is a web tool enabling designers to create and edit flexible layouts visually, simplifying responsive design.",
     tags: ["React",  "Material UI"],
     imageUrl: flexboxImg,
     link: "https://flexbox.durga.dev",
