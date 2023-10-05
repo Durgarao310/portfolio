@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import beblossomImg from "@/public/beblossom.png";
 import bizmarvelImg from "@/public/bizmarvel.png";
 import mokliveImg from "@/public/moklive.png";
+import flexboxImg from "@/public/flexbox.jpg";
 
 export const links = [
   {
@@ -61,6 +62,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "CSS Flexbox visualizer",
+    description:
+      "A tool for visually designing CSS flexbox layouts in real-time.",
+    tags: ["React",  "Material UI"],
+    imageUrl: flexboxImg,
+    link: "https://flexbox.durga.dev",
+  },
   {
     title: "BeBlossom",
     description:
