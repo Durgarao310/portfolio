@@ -36,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Relief.today (Front-End Developer Intern)",
+    location: "Remote (Hyderabad, India)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Working as a frontend intern closely with a UI/UX team sounds like an exciting and valuable experience! It must have given you a great opportunity to learn about the intricacies of user interface and user experience.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Feb 2021 - Apr 2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Wielabs (MERN Stack Developer)",
+    location: "Hyderabad, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Upskilled to full-stack proficiency, proficient in React.js, Next.js, MongoDB, Express.js, and Node.js, adept at building scalable web applications with a focus on performance and user experience.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Apr 2021 - Apr 2022",
+  },
+  {
+    title: "Mokshar creative studios (Full-Stack Developer)",
+    location: "Hyderabad, India",
+    description:
+      "Full-stack developer. Tech stack includes React, Next.js, TypeScript, Tailwind, AWS, and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022 - Present",
   },
 ] as const;
 
@@ -66,7 +66,7 @@ export const projectsData = [
     title: "CSS Flexbox visualizer",
     description:
       "A CSS flexbox visualizer is a web tool enabling designers to create and edit flexible layouts visually, simplifying responsive design.",
-    tags: ["React",  "Material UI"],
+    tags: ["React", "Material UI"],
     imageUrl: flexboxImg,
     link: "https://flexbox.durga.dev",
   },
@@ -101,6 +101,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Webpack",
   "React",
   "Next.js",
   "Node.js",
@@ -115,5 +116,5 @@ export const skillsData = [
   "Python",
   "Django",
   "Firebase",
-  "Socket.io",
+  "Socket.Io",
 ] as const;
