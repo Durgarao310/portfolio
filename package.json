@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.6",
-    "eslint": "^8.1.0"
+    "eslint": "^8.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0"
