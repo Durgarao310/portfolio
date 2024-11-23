@@ -35,14 +35,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Relief.today (Front-End Developer Intern)",
-    location: "Remote (Hyderabad, India)",
-    description:
-      "Working as a frontend intern closely with a UI/UX team sounds like an exciting and valuable experience! It must have given you a great opportunity to learn about the intricacies of user interface and user experience.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Feb 2021 - Apr 2021",
-  },
+  // {
+  //   title: "Relief.today (Front-End Developer Intern)",
+  //   location: "Remote (Hyderabad, India)",
+  //   description:
+  //     "Working as a frontend intern closely with a UI/UX team sounds like an exciting and valuable experience! It must have given you a great opportunity to learn about the intricacies of user interface and user experience.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "Feb 2021 - Apr 2021",
+  // },
   {
     title: "Wielabs (MERN Stack Developer)",
     location: "Hyderabad, India",
@@ -55,9 +55,17 @@ export const experiencesData = [
     title: "Mokshar creative studios (Full-Stack Developer)",
     location: "Hyderabad, India",
     description:
-      "Full-stack developer. Tech stack includes React, Next.js, TypeScript, Tailwind, AWS, and MongoDB. I'm open to full-time opportunities.",
+      "Full-stack developer. Tech stack includes React, Next.js, TypeScript, Tailwind, AWS, and MongoDB.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2022 - Present",
+    date: "May 2022 - June 2024",
+  },
+  {
+    title: "Onfocussoft pvt ltd (Senoir software engineer)",
+    location: "Hyderabad, India",
+    description:
+      "Senior Software Developer specializing in solution design, feature implementation, and team mentorship. Passionate about guiding junior developers, crafting scalable solutions, and driving technical excellence in every project.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 - present",
   },
 ] as const;
 
@@ -92,7 +100,7 @@ export const projectsData = [
       " I spearheaded the development and launch of a comprehensive Digital Out-of-Home (DOOH) advertising platform from the ground up.",
     tags: ["React Native", "React", "Express", "MongoDB", "AWS"],
     imageUrl: mokliveImg,
-    link: "https://moklive.com",
+    link: "https://moksharlive.netlify.app",
   },
 ] as const;
 
