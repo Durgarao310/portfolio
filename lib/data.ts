@@ -78,6 +78,7 @@ export const experiencesData = [
 ] as const;
 
 
+
 export const projectsData = [
   {
     title: "CSS Flexbox visualizer",
