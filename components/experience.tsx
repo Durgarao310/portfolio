@@ -7,29 +7,20 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-context";
+import { experiencesData } from '@/lib/data';
+import { useTheme } from '@/context/theme-context';
 
 export default function Experience() {
-  const { ref, inView } = useSectionInView("Experience");
   const { theme } = useTheme();
-  const [isVisible, setIsVisible] = React.useState(false);
-
-  React.useEffect(() => {
-    if (inView) {
-      setIsVisible(true);
-    }
-  }, [inView]);
 
   return (
-    <section id='experience' ref={ref} className='scroll-mt-12 mb-12 sm:mb-6'>
+    <section id='experience' className='scroll-mt-12 mb-12 sm:mb-6'>
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor=''>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-              visible={isVisible}
+              visible={true}
               contentStyle={{
                 background:
                   theme === 'light' ? '#f3f4f6' : 'rgba(255, 255, 255, 0.05)',
