@@ -35,39 +35,48 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Relief.today (Front-End Developer Intern)",
-  //   location: "Remote (Hyderabad, India)",
-  //   description:
-  //     "Working as a frontend intern closely with a UI/UX team sounds like an exciting and valuable experience! It must have given you a great opportunity to learn about the intricacies of user interface and user experience.",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "Feb 2021 - Apr 2021",
-  // },
+  {
+    title: "Relief.today (Frontend Developer Intern)",
+    location: "Remote (Hyderabad, India)",
+    description:
+      "Collaborated closely with UI/UX designers to translate design concepts into interactive and responsive web interfaces using ReactJS. Contributed to the development of a visually appealing and intuitive website by implementing UI designs created in Figma.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Feb 2021 - Apr 2021",
+  },
   {
     title: "Wielabs (MERN Stack Developer)",
     location: "Hyderabad, India",
     description:
-      "Upskilled to full-stack proficiency, proficient in React.js, Next.js, MongoDB, Express.js, and Node.js, adept at building scalable web applications with a focus on performance and user experience.",
+      "Contributed to the creation of multiple e-commerce platforms, leveraging ReactJS for frontend development and Node.js with MongoDB or Firebase for backend infrastructure. Played a key role in building social media platforms from the ground up, utilizing React Native for cross-platform mobile development and Firebase for real-time database capabilities. Designed and implemented RESTful APIs using Node.js to facilitate communication between frontend and backend systems.",
     icon: React.createElement(FaReact),
     date: "Apr 2021 - Apr 2022",
   },
   {
-    title: "Mokshar creative studios (Full-Stack Developer)",
+    title: "Mokshar Creative Studios (Full-Stack Engineer)",
     location: "Hyderabad, India",
     description:
-      "Full-stack developer. Tech stack includes React, Next.js, TypeScript, Tailwind, AWS, and MongoDB.",
+      "Implemented webpack as the module bundler to optimize the performance and build process of React applications, resulting in faster load times and improved efficiency. Spearheaded the integration of Cypress for automated E2E testing, ensuring comprehensive test coverage. Enhanced API response time using MongoDB aggregation and indexing, ensuring rapid data retrieval and processing. Designed and implemented CI/CD pipelines on AWS, automating the build, test, and deployment processes for multiple environments.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2022 - June 2024",
+    date: "May 2022 - Jun 2024",
   },
   {
-    title: "Onfocussoft pvt ltd (Senoir software engineer)",
+    title: "Onfocussoft Pvt Ltd (Senior Software Engineer)",
     location: "Hyderabad, India",
     description:
-      "Senior Software Developer specializing in solution design, feature implementation, and team mentorship. Passionate about guiding junior developers, crafting scalable solutions, and driving technical excellence in every project.",
+      "Developed a social media app with event creation and management features using React Native, Express.js, and MongoDB, providing a seamless user experience across iOS and Android. Optimized backend APIs for scalability and performance, handling real-time updates and efficient data management for event-based functionalities.",
     icon: React.createElement(CgWorkAlt),
-    date: "July 2024 - present",
+    date: "Jul 2024 - Nov 2024",
+  },
+  {
+    title: "Altrova Inc (Senior Software Developer)",
+    location: "Hyderabad, India",
+    description:
+      "Built a dynamic configuration dashboard using React Hook Form, reducing development and testing time by 40%. Implemented configurable email templates for notifications, enhancing user engagement and simplifying content updates. Leveraged Node.js, MySQL, and AWS to deliver scalable and reliable solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2024 - Present",
   },
 ] as const;
+
 
 export const projectsData = [
   {
